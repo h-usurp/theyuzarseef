@@ -10,7 +10,8 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Inconsolata", monospace;
-  color: #0d1e2d;
+  color: #27b14b;
+  background-color: #f8fff9;
 }
 
 a {
@@ -19,7 +20,7 @@ a {
 }
 
 a:hover {
-  color: #000;
+  color: #27b14b;
 }
 
 h1, h2, h3, h4, h5, h6, .font-heading {
@@ -32,7 +33,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 
 .filters a {
   text-decoration: none;
-  color: #000;
+  color: #27b14b;
   display: inline-block;
   padding-left: 10px;
   padding-right: 10px;
@@ -48,10 +49,10 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   right: 10px;
   bottom: 0;
   height: 1px;
-  background-color: #000;
+  background-color: #27b14b;
 }
 .filters a.active {
-  color: #000;
+  color: #27b14b;
 }
 .filters a.active:before {
   content: "";
@@ -60,7 +61,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   right: 10px;
   bottom: 0;
   height: 1px;
-  background-color: #000;
+  background-color: #27b14b;
 }
 
 .item {
@@ -159,11 +160,11 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 
 .readmore {
   display: inline-block;
-  border: 1px solid #000;
+  border: 1px solid #27b14b;
   padding: 10px 15px;
   font-size: 12px;
   text-transform: uppercase;
-  color: #000;
+  color: #27b14b;
   transition: 0.2s all ease;
   font-weight: 700;
 }
@@ -173,7 +174,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 .readmore:hover {
   color: #fff;
   text-decoration: none;
-  background: #000;
+  background: #27b14b;
 }
 
 .testimonials-slider .swiper-pagination {
@@ -209,7 +210,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   top: 0.7rem;
   width: 10px;
   height: 2px;
-  background: #000;
+  background: #27b14b;
 }
 
 .form-control {
@@ -231,7 +232,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   border-radius: 0;
 }
 .custom-progress .progress-bar {
-  background: #000;
+  background: #27b14b;
 }
 
 /* Services */
@@ -303,7 +304,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 --------------------------------------------------------------*/
 /* Custom Navmenu */
 .custom-navmenu {
-  background: #0d1e2d;
+  background: #27b14b;
 }
 .custom-navmenu .custom-menu, .custom-navmenu .custom-menu li {
   padding: 0;
@@ -353,6 +354,10 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   font-size: 1.7rem;
 }
 
+.navbar-light .navbar-brand {
+  color: #27b14b;
+}
+
 /* Burger */
 .burger {
   width: 28px;
@@ -365,7 +370,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   width: 100%;
   height: 2px;
   display: block;
-  background: #000;
+  background: #27b14b;
   border-radius: 2px;
   position: absolute;
   opacity: 1;
@@ -426,7 +431,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   padding: 0 0 4rem 0;
 }
 .footer a {
-  color: #000;
+  color: #27b14b;
 }
 
 .social a {
@@ -437,7 +442,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   background: #f8f9fa;
   position: relative;
   text-align: center;
-  color: #0d1e2d;
+  color: #27b14b;
 }
 .social a span {
   display: inline-block;
@@ -447,5 +452,5 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   transform: translate(-50%, -50%);
 }
 .social a:hover {
-  color: #000;
+  color: #27b14b;
 }
